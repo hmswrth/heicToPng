@@ -1,0 +1,24 @@
+{
+  "name": "heictopng",
+  "version": "1.0.0",
+  "description": "node script to convert heic image formats to png",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmswrth/heicToPng.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmswrth/heicToPng/issues"
+  },
+  "homepage": "https://github.com/hmswrth/heicToPng#readme",
+  "dependencies": {
+    "heic-convert": "^2.1.0",
+    "nodemon": "^3.0.2"
+  }
+}
